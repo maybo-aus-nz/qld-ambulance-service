@@ -93,10 +93,13 @@ footer{background:#0b0f11;color:#aeb6ba;padding:30px 0;font-size:.88rem}.footer-
 .considerations li span{color:#3d4448}
 @media(max-width:900px){.wheel-block{grid-template-columns:1fr}}
 
-.au-timeline{grid-template-columns:repeat(4,1fr) !important}
-.au-timeline .dot{width:90px;height:90px}
-.au-timeline:before{top:45px !important}
+.au-timeline{grid-template-columns:repeat(2,1fr) !important;row-gap:44px}
+.au-timeline:before{display:none}
+.au-timeline .dot{width:300px;height:300px;font-size:3.6rem}
+.au-timeline .milestone h3{font-size:1.5rem;margin-top:16px}
+.au-timeline .milestone p{font-size:1.05rem}
 .wheel-dot{border:none !important;background:none !important;box-shadow:none !important;padding:0;overflow:hidden}
+@media(max-width:700px){.au-timeline{grid-template-columns:1fr !important}.au-timeline .dot{width:240px;height:240px}}
 
 </style>
 <link as="image" href="https://www.ambulance.qld.gov.au/__data/assets/image/0017/206513/Medium-Paramedics-standing-with-bag-by-ambulance-.jpg" rel="preload"/></head>
